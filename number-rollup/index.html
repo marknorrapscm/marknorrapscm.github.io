@@ -49,6 +49,15 @@
 
 		.link-image img:hover {
 			opacity: 1;
+		}
+
+		.form-inline {
+			justify-content: center;
+		}
+
+		.w-90 {
+			max-width: 90px;
+
 		}</style></head><body><div class="centered"><a class="link-image" href="https://github.com/marknorrapscm/number-rollup"><img src="https://i.imgur.com/Rpcc60A.png"/> </a><a class="link-image" href="https://www.npmjs.com/package/number-rollup"><img src="https://i.imgur.com/iYLInIb.png"/></a><div class="container"><div class="demo"><div class="demo__buttons text-center"><button class="btn btn-success mr-4" id="example-1-btn">Run Example 1</button> <button class="btn btn-secondary mr-4" id="example-1">0</button> <button class="btn btn-dark view-source-btn" data-for="example-1-demo-code">View Source</button></div><div class="demo__code hidden" id="example-1-demo-code"><pre>
 						<code class="language-html">
 							<button id="example-1">0</button>
@@ -96,4 +105,4 @@
 
 							numberRollup();
 						</code>
-					</pre></div></div></div></div><script src="index.js"></script></body></html>
+					</pre></div></div><hr/><div class="demo"><div class="demo__buttons text-center"><form class="form-inline" id="custom-example-form"><input class="form-control w-90 mr-2" placeholder="Start" name="start"/> <input class="form-control w-90 mr-2" placeholder="End" name="end"/> <input class="form-control w-90 mr-2" placeholder="Duration" name="duration"/> <button class="btn btn-success mr-2" id="custom-example-btn" onclick="return false">Run Custom Example</button> <button class="btn btn-secondary mr-2" id="custom-example">0</button></form></div></div></div></div><script src="index.js"></script></body></html>
