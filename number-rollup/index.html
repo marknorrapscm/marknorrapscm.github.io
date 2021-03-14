@@ -71,7 +71,8 @@
 								startNumber: 0,
 								endNumber: 500,
 								duration: 500,
-								formatNumber: myCustomFormatter
+								formatNumber: myCustomFormatter,
+								easing: "easeInQuintic"
 							});
 
 							const myCustomFormatter = function (v) {
@@ -93,10 +94,10 @@
 								duration: 500,
 							});
 						</code>
-					</pre></div></div><hr/><div class="demo"><div class="demo__buttons text-center"><button class="btn btn-success mr-4" id="example-3-btn">Run Example 3</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="0" data-number-rollup-end="500" data-number-rollup-duration="250">0</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="100" data-number-rollup-end="100000" data-number-rollup-duration="1000">0</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="10000" data-number-rollup-end="0" data-number-rollup-duration="1000">0</button> <button class="btn btn-dark ml-4 view-source-btn" data-for="example-3-demo-code">View Source</button></div><div class="demo__code hidden" id="example-3-demo-code"><pre>
+					</pre></div></div><hr/><div class="demo"><div class="demo__buttons text-center"><button class="btn btn-success mr-4" id="example-3-btn">Run Example 3</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="0" data-number-rollup-end="500" data-number-rollup-duration="250">0</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="100" data-number-rollup-end="100000" data-number-rollup-duration="1000" data-number-rollup-easing="easeOutQuintic">0</button> <button class="btn btn-secondary number-rollup" data-number-rollup-start="10000" data-number-rollup-end="0" data-number-rollup-duration="1000">0</button> <button class="btn btn-dark ml-4 view-source-btn" data-for="example-3-demo-code">View Source</button></div><div class="demo__code hidden" id="example-3-demo-code"><pre>
 						<code class="language-html">
 							<button class="number-rollup" data-number-rollup-start="0" data-number-rollup-end="500" data-number-rollup-duration="250">0</button>
-							<button class="number-rollup" data-number-rollup-start="100" data-number-rollup-end="100000" data-number-rollup-duration="1000">0</button>
+							<button class="number-rollup" data-number-rollup-start="100" data-number-rollup-end="100000" data-number-rollup-duration="1000" data-number-rollup-easing="easeOutQuintic">0</button>
 							<button class="number-rollup" data-number-rollup-start="10000" data-number-rollup-end="0" data-number-rollup-duration="1000">0</button>
 						</code>
 					</pre><pre>
